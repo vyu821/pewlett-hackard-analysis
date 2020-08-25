@@ -54,3 +54,13 @@ create table titles (
 	foreign key (emp_no) references employees (emp_no),
 	primary key (emp_no)
 );
+
+-- departments, employees, dept_manager, salaries, dept_employees, titles
+-- drop table salaries, titles cascade;
+
+select * from departments;
+select * from employees;
+select * from dept_manager;
+select * from salaries;
+select * from dept_employees;
+select * from titles;
