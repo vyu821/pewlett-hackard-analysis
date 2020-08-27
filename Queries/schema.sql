@@ -51,8 +51,7 @@ create table titles (
 	title varchar not null,
 	from_date date not null,
 	to_date date not null,
-	foreign key (emp_no) references employees (emp_no),
-	primary key (emp_no)
+	foreign key (emp_no) references employees (emp_no)
 );
 
 -- departments, employees, dept_manager, salaries, dept_employees, titles
