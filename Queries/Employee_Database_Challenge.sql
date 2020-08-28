@@ -48,3 +48,30 @@ where (e.birth_date between '1965-01-01' and '1965-12-31')
 and (de.to_date = '9999-01-01')
 order by e.emp_no;
 
+-- Deliverable 3, two addition queries
+-- number of mentors available for each role
+select count(emp_no), title
+from mentorship_eligibility
+group by title
+order by count desc;
+
+-- employees not retiring
+select distinct on (e.emp_no)
+	e.emp_no,
+	ti.title,
+	de.to_date
+into not_retirement_titles
+from employees as e
+inner join titles as ti
+on (e.emp_no = ti.emp_no)
+inner join dept_employees as de
+on (e.emp_no = de.emp_no)
+where (e.birth_date not between '1952-01-01' and '1955-12-31')
+and (de.to_date = '9999-01-01')
+order by e.emp_no;
+
+-- number of employees not retiring per title
+select count(emp_no), title
+from not_retirement_titles
+group by title
+order by count desc;

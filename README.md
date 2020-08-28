@@ -17,5 +17,9 @@ From our analysis, we can see that:
 - There is a healthy amount of mentors available in each role.
 
 ## Challenge Summary
-If we sum up the counts in retiring_titles.csv, there are 90,398 employees that will be retiring. Which means 90,398 roles will need to be filled as the "silver tsnuami" begins to make an impact. Looking at mentorship_eligibility.csv, we can see that there are plenty of mentors available to help the new hires.
+
+Number of Eligible Mentors per Title | Number of Employees Not Retiring per Title
+:-----------------------------------:|:------------------------------------------:
+![mentors_titles](Data/Challenge/resources/mentors_titles.png) | ![not_retiring_titles](Data/Challenge/resources/not_retiring_titles.png)
+If we sum up the counts in retiring_titles.csv, there are 90,398 employees that will be retiring. Which means 90,398 roles will need to be filled as the "silver tsnuami" begins to make an impact. Looking at the above table, we can see that there are plenty of mentors available to help the new hires.
 
