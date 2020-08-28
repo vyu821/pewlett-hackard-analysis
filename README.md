@@ -10,7 +10,7 @@ You are to determine the number of retiring employees per job title and identify
 ## Challenge Results
 From our analysis, we can see that:
 
-![retiring_titles](resources/retiring_titles.png)
+![retiring_titles](Data/Challenge/resources/retiring_titles.png)
 - Many retirees are in a senior role.
 
 
