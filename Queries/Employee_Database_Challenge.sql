@@ -30,7 +30,7 @@ group by title
 order by count desc;
 
 -- Deliverable 2, employees eligible for mentorship program
-select distinct on(e.emp_no)
+select distinct on (e.emp_no)
 	e.emp_no,
 	e.first_name,
 	e.last_name,
