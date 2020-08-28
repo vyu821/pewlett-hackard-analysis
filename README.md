@@ -12,33 +12,10 @@ From our analysis, we can see that:
 
 ![retiring_titles](Data/Challenge/resources/retiring_titles.png)
 - Many retirees are in a senior role.
+- Only 2 managerial positions are retiring.
+- Scrolling down our mentorship_eligibility.csv file, there are about 1549 employees who can become mentors.
+- There is a healthy amount of mentors available in each role.
 
+## Challenge Summary
+If we sum up the counts in retiring_titles.csv, there are 90,398 employees that will be retiring. Which means 90,398 roles will need to be filled as the "silver tsnuami" begins to make an impact. Looking at mentorship_eligibility.csv, we can see that there are plenty of mentors available to help the new hires.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
